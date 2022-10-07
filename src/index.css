@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(49, 107, 195);
+
+}
+
+#quote-box{
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+    margin-top: 25vh;
+    padding: 30px;
+    text-align: center;
+    color: rgb(49, 107, 195);;
+}
+
+#author{
+    text-align: right;
+    margin-top: 25px;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    margin-top: -35px;
+}
+
+#new-quote{
+    text-align: right;
+    margin-top: 40px;
+}
+
+.quote{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.author{
+    font-size: 20px;
+    font-weight: 350;
+}
+
+#tweet-quote{
+    margin-right: 10px;
+}
+
+@media (min-width: 768px) { 
+    #quote-box{
+    max-width: 700px;
+    }
+}
+
+
+.fade-in-text {
+    animation: fadeIn 2s;
+  }
+
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+
